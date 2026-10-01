@@ -1,1 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Your Name | CSE Student</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f6f8;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #111827;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #d1d5db;
+        }
+
+        nav {
+            background: #1f2937;
+            text-align: center;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #60a5fa;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background: white;
+            margin-bottom: 25px;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        }
+
+        section h2 {
+            color: #2563eb;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #2563eb;
+            padding-bottom: 8px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background: #2563eb;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+        }
+
+        .project {
+            background: #f9fafb;
+            padding: 20px;
+            margin: 15px 0;
+            border-left: 4px solid #2563eb;
+        }
+
+        .project h3 {
+            margin-bottom: 8px;
+        }
+
+        .contact a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        footer {
+            background: #111827;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 32px;
+            }
+
+            nav a {
+                margin: 0 6px;
+                font-size: 14px;
+            }
+
+            section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Your Name</h1>
+        <p>Computer Science Engineering Student</p>
+        <p>Web Developer | Programmer | Tech Enthusiast</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- ABOUT -->
+        <section id="about">
+            <h2>About Me</h2>
+
+            <p>
+                I am a Computer Science Engineering student interested in
+                programming, web development and emerging technologies.
+                I enjoy learning new technologies and building useful
+                projects that solve real-world problems.
+            </p>
+        </section>
+
+        <!-- EDUCATION -->
+        <section id="education">
+            <h2>Education</h2>
+
+            <h3>Bachelor of Engineering / Technology</h3>
+            <p>Computer Science Engineering</p>
+            <p>Your College Name</p>
+            <p>2024 - 2028</p>
+
+            <br>
+
+            <h3>Higher Secondary Education</h3>
+            <p>Your School Name</p>
+            <p>Completed: 2024</p>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills">
+            <h2>Technical Skills</h2>
+
+            <div class="skills">
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">Python</span>
+                <span class="skill">C</span>
+                <span class="skill">Java</span>
+                <span class="skill">Git</span>
+                <span class="skill">GitHub</span>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <h3>Personal Portfolio Website</h3>
+                <p>
+                    Created a responsive personal portfolio website using
+                    HTML and CSS and deployed it using GitHub Pages.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Student Management System</h3>
+                <p>
+                    Developed a simple student management application
+                    for storing and managing student information.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Mini Web Project</h3>
+                <p>
+                    Built a responsive web application using HTML,
+                    CSS and JavaScript.
+                </p>
+            </div>
+        </section>
+
+        <!-- CERTIFICATIONS -->
+        <section>
+            <h2>Certifications</h2>
+
+            <ul>
+                <li>Python Programming Certification</li>
+                <li>Web Development Certification</li>
+                <li>Introduction to Git and GitHub</li>
+            </ul>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+
+            <p><strong>Email:</strong>
+                <a href="mailto:yourmail@gmail.com">
+                    yourmail@gmail.com
+                </a>
+            </p>
+
+            <p><strong>Phone:</strong> +91 XXXXX XXXXX</p>
+
+            <p><strong>GitHub:</strong>
+                <a href="https://github.com/yourusername" target="_blank">
+                    github.com/yourusername
+                </a>
+            </p>
+
+            <p><strong>LinkedIn:</strong>
+                <a href="#" target="_blank">
+                    LinkedIn Profile
+                </a>
+            </p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Your Name | CSE Student</p>
+    </footer>
+
+</body>
+</html>
